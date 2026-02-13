@@ -204,9 +204,9 @@ with col2:
     # إدخال نطاق الطلاب
     range_col1, range_col2 = st.columns(2)
     with range_col1:
-        start_id = st.number_input("من رقم الجلوس", min_value=1, value=1, step=1)
+        start_id = st.number_input("بدايه من طالب رقم", min_value=1, value=1, step=1)
     with range_col2:
-        end_id = st.number_input("إلى رقم الجلوس", min_value=1, value=50, step=1)
+        end_id = st.number_input("الى رقم", min_value=1, value=50, step=1)
     
     # أزرار التحكم
     btn_col1, btn_col2, btn_col3 = st.columns(3)
